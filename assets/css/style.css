@@ -338,11 +338,13 @@ main {
 }
 
 
-.avatar-box img {
-  border-radius: 100px; /* Redondea las esquinas de la propia imagen */
-  width: 80px; /* Puedes ajustar el tamaño si es necesario */
-  height: auto; /* Mantiene la proporción de la imagen */
+.avatar-box {
+  background: var(--bg-gradient-onyx);
+  border-radius: 20px;
+}
 
+.avatar-box img { 
+  border-radius: 20px;
 }
 
 .info-content .name {
@@ -512,7 +514,6 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
-
 .about-text p { margin-bottom: 15px; }
 
 
@@ -1057,7 +1058,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { 
+    width: 120px; 
+    border-radius: 30px;
+  }
 
   .info-content .name { margin-bottom: 15px; }
 
